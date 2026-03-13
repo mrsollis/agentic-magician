@@ -1,4 +1,3 @@
-```markdown
 # agentic-magician
 
 Install curated AI agent configurations for **Claude Code** and **Cursor** in one command. Powered by agents from [wshobson/agents](https://github.com/wshobson/agents).
@@ -266,6 +265,3 @@ MIT
 ## Credits
 
 Agent content sourced from [wshobson/agents](https://github.com/wshobson/agents) (MIT license).
-```
-
-There you go — the entire README as raw markdown. Copy the whole block above.
