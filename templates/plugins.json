@@ -1,0 +1,1141 @@
+[
+  {
+    "name": "accessibility-compliance",
+    "description": "WCAG accessibility auditing, compliance validation, UI testing for screen readers, keyboard navigation, and inclusive design",
+    "version": "1.2.2",
+    "agents": [
+      "ui-visual-validator.md"
+    ],
+    "commands": [
+      "accessibility-audit.md"
+    ],
+    "skills": [
+      "screen-reader-testing",
+      "wcag-audit-patterns"
+    ]
+  },
+  {
+    "name": "agent-orchestration",
+    "description": "Multi-agent system optimization, agent improvement workflows, and context management",
+    "version": "1.2.1",
+    "agents": [
+      "context-manager.md"
+    ],
+    "commands": [
+      "improve-agent.md",
+      "multi-agent-optimize.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "agent-teams",
+    "description": "Orchestrate multi-agent teams for parallel code review, hypothesis-driven debugging, and coordinated feature development using Claude Code's Agent Teams",
+    "version": "1.0.2",
+    "agents": [
+      "team-debugger.md",
+      "team-implementer.md",
+      "team-lead.md",
+      "team-reviewer.md"
+    ],
+    "commands": [
+      "team-debug.md",
+      "team-delegate.md",
+      "team-feature.md",
+      "team-review.md",
+      "team-shutdown.md",
+      "team-spawn.md",
+      "team-status.md"
+    ],
+    "skills": [
+      "multi-reviewer-patterns",
+      "parallel-debugging",
+      "parallel-feature-development",
+      "task-coordination-strategies",
+      "team-communication-protocols",
+      "team-composition-patterns"
+    ]
+  },
+  {
+    "name": "api-scaffolding",
+    "description": "REST and GraphQL API scaffolding, framework selection, backend architecture, and API generation",
+    "version": "1.2.2",
+    "agents": [
+      "backend-architect.md",
+      "django-pro.md",
+      "fastapi-pro.md",
+      "graphql-architect.md"
+    ],
+    "commands": [],
+    "skills": [
+      "fastapi-templates"
+    ]
+  },
+  {
+    "name": "api-testing-observability",
+    "description": "API testing automation, request mocking, OpenAPI documentation generation, observability setup, and monitoring",
+    "version": "1.2.0",
+    "agents": [
+      "api-documenter.md"
+    ],
+    "commands": [
+      "api-mock.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "application-performance",
+    "description": "Application profiling, performance optimization, and observability for frontend and backend systems",
+    "version": "1.3.0",
+    "agents": [
+      "frontend-developer.md",
+      "observability-engineer.md",
+      "performance-engineer.md"
+    ],
+    "commands": [
+      "performance-optimization.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "arm-cortex-microcontrollers",
+    "description": "ARM Cortex-M firmware development for Teensy, STM32, nRF52, and SAMD with peripheral drivers and memory safety patterns",
+    "version": "1.2.0",
+    "agents": [
+      "arm-cortex-expert.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "backend-api-security",
+    "description": "API security hardening, authentication implementation, authorization patterns, rate limiting, and input validation",
+    "version": "1.2.0",
+    "agents": [
+      "backend-architect.md",
+      "backend-security-coder.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "backend-development",
+    "description": "Backend API design, GraphQL architecture, workflow orchestration with Temporal, and test-driven backend development",
+    "version": "1.3.1",
+    "agents": [
+      "backend-architect.md",
+      "event-sourcing-architect.md",
+      "graphql-architect.md",
+      "performance-engineer.md",
+      "security-auditor.md",
+      "tdd-orchestrator.md",
+      "temporal-python-pro.md",
+      "test-automator.md"
+    ],
+    "commands": [
+      "feature-development.md"
+    ],
+    "skills": [
+      "api-design-principles",
+      "architecture-patterns",
+      "cqrs-implementation",
+      "event-store-design",
+      "microservices-patterns",
+      "projection-patterns",
+      "saga-orchestration",
+      "temporal-python-testing",
+      "workflow-orchestration-patterns"
+    ]
+  },
+  {
+    "name": "blockchain-web3",
+    "description": "Smart contract development with Solidity, DeFi protocol implementation, NFT platforms, and Web3 application architecture",
+    "version": "1.2.2",
+    "agents": [
+      "blockchain-developer.md"
+    ],
+    "commands": [],
+    "skills": [
+      "defi-protocol-templates",
+      "nft-standards",
+      "solidity-security",
+      "web3-testing"
+    ]
+  },
+  {
+    "name": "business-analytics",
+    "description": "Business metrics analysis, KPI tracking, financial reporting, and data-driven decision making",
+    "version": "1.2.2",
+    "agents": [
+      "business-analyst.md"
+    ],
+    "commands": [],
+    "skills": [
+      "data-storytelling",
+      "kpi-dashboard-design"
+    ]
+  },
+  {
+    "name": "c4-architecture",
+    "description": "Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagram generation",
+    "version": "1.0.0",
+    "agents": [
+      "c4-code.md",
+      "c4-component.md",
+      "c4-container.md",
+      "c4-context.md"
+    ],
+    "commands": [
+      "c4-architecture.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "cicd-automation",
+    "description": "CI/CD pipeline configuration, GitHub Actions/GitLab CI workflow setup, and automated deployment pipeline orchestration",
+    "version": "1.2.2",
+    "agents": [
+      "cloud-architect.md",
+      "deployment-engineer.md",
+      "devops-troubleshooter.md",
+      "kubernetes-architect.md",
+      "terraform-specialist.md"
+    ],
+    "commands": [
+      "workflow-automate.md"
+    ],
+    "skills": [
+      "deployment-pipeline-design",
+      "github-actions-templates",
+      "gitlab-ci-patterns",
+      "secrets-management"
+    ]
+  },
+  {
+    "name": "cloud-infrastructure",
+    "description": "Cloud architecture design for AWS/Azure/GCP, Kubernetes cluster configuration, Terraform infrastructure-as-code, hybrid cloud networking, and multi-cloud cost optimization",
+    "version": "1.2.3",
+    "agents": [
+      "cloud-architect.md",
+      "deployment-engineer.md",
+      "hybrid-cloud-architect.md",
+      "kubernetes-architect.md",
+      "network-engineer.md",
+      "service-mesh-expert.md",
+      "terraform-specialist.md"
+    ],
+    "commands": [],
+    "skills": [
+      "cost-optimization",
+      "hybrid-cloud-networking",
+      "istio-traffic-management",
+      "linkerd-patterns",
+      "mtls-configuration",
+      "multi-cloud-architecture",
+      "service-mesh-observability",
+      "terraform-module-library"
+    ]
+  },
+  {
+    "name": "code-documentation",
+    "description": "Documentation generation, code explanation, and technical writing with automated doc generation and tutorial creation",
+    "version": "1.2.0",
+    "agents": [
+      "code-reviewer.md",
+      "docs-architect.md",
+      "tutorial-engineer.md"
+    ],
+    "commands": [
+      "code-explain.md",
+      "doc-generate.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "code-refactoring",
+    "description": "Code cleanup, refactoring automation, and technical debt management with context restoration",
+    "version": "1.2.0",
+    "agents": [
+      "code-reviewer.md",
+      "legacy-modernizer.md"
+    ],
+    "commands": [
+      "context-restore.md",
+      "refactor-clean.md",
+      "tech-debt.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "codebase-cleanup",
+    "description": "Technical debt reduction, dependency updates, and code refactoring automation",
+    "version": "1.2.0",
+    "agents": [
+      "code-reviewer.md",
+      "test-automator.md"
+    ],
+    "commands": [
+      "deps-audit.md",
+      "refactor-clean.md",
+      "tech-debt.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "comprehensive-review",
+    "description": "Multi-perspective code analysis covering architecture, security, and best practices",
+    "version": "1.3.0",
+    "agents": [
+      "architect-review.md",
+      "code-reviewer.md",
+      "security-auditor.md"
+    ],
+    "commands": [
+      "full-review.md",
+      "pr-enhance.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "conductor",
+    "description": "Context-Driven Development plugin that transforms Claude Code into a project management tool with structured workflow: Context → Spec & Plan → Implement",
+    "version": "1.2.1",
+    "agents": [
+      "conductor-validator.md"
+    ],
+    "commands": [
+      "implement.md",
+      "manage.md",
+      "new-track.md",
+      "revert.md",
+      "setup.md",
+      "status.md"
+    ],
+    "skills": [
+      "context-driven-development",
+      "track-management",
+      "workflow-patterns"
+    ]
+  },
+  {
+    "name": "content-marketing",
+    "description": "Content marketing strategy, web research, and information synthesis for marketing operations",
+    "version": "1.2.0",
+    "agents": [
+      "content-marketer.md",
+      "search-specialist.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "context-management",
+    "description": "Context persistence, restoration, and long-running conversation management",
+    "version": "1.2.0",
+    "agents": [
+      "context-manager.md"
+    ],
+    "commands": [
+      "context-restore.md",
+      "context-save.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "customer-sales-automation",
+    "description": "Customer support workflow automation, sales pipeline management, email campaigns, and CRM integration",
+    "version": "1.2.0",
+    "agents": [
+      "customer-support.md",
+      "sales-automator.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "data-engineering",
+    "description": "ETL pipeline construction, data warehouse design, batch processing workflows, and data-driven feature development",
+    "version": "1.3.1",
+    "agents": [
+      "backend-architect.md",
+      "data-engineer.md"
+    ],
+    "commands": [
+      "data-driven-feature.md",
+      "data-pipeline.md"
+    ],
+    "skills": [
+      "airflow-dag-patterns",
+      "data-quality-frameworks",
+      "dbt-transformation-patterns",
+      "spark-optimization"
+    ]
+  },
+  {
+    "name": "data-validation-suite",
+    "description": "Schema validation, data quality monitoring, streaming validation pipelines, and input validation for backend APIs",
+    "version": "1.2.0",
+    "agents": [
+      "backend-security-coder.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "database-cloud-optimization",
+    "description": "Database query optimization, cloud cost optimization, and scalability improvements",
+    "version": "1.2.0",
+    "agents": [
+      "backend-architect.md",
+      "cloud-architect.md",
+      "database-architect.md",
+      "database-optimizer.md"
+    ],
+    "commands": [
+      "cost-optimize.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "database-design",
+    "description": "Database architecture, schema design, and SQL optimization for production systems",
+    "version": "1.2.0",
+    "agents": [
+      "database-architect.md",
+      "sql-pro.md"
+    ],
+    "commands": [],
+    "skills": [
+      "postgresql"
+    ]
+  },
+  {
+    "name": "database-migrations",
+    "description": "Database migration automation, observability, and cross-database migration strategies",
+    "version": "1.2.0",
+    "agents": [
+      "database-admin.md",
+      "database-optimizer.md"
+    ],
+    "commands": [
+      "migration-observability.md",
+      "sql-migrations.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "debugging-toolkit",
+    "description": "Interactive debugging, developer experience optimization, and smart debugging workflows",
+    "version": "1.2.0",
+    "agents": [
+      "debugger.md",
+      "dx-optimizer.md"
+    ],
+    "commands": [
+      "smart-debug.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "dependency-management",
+    "description": "Dependency auditing, version management, and security vulnerability scanning",
+    "version": "1.2.0",
+    "agents": [
+      "legacy-modernizer.md"
+    ],
+    "commands": [
+      "deps-audit.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "deployment-strategies",
+    "description": "Deployment patterns, rollback automation, and infrastructure templates",
+    "version": "1.2.0",
+    "agents": [
+      "deployment-engineer.md",
+      "terraform-specialist.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "deployment-validation",
+    "description": "Pre-deployment checks, configuration validation, and deployment readiness assessment",
+    "version": "1.2.0",
+    "agents": [
+      "cloud-architect.md"
+    ],
+    "commands": [
+      "config-validate.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "developer-essentials",
+    "description": "Essential developer skills including Git workflows, SQL optimization, error handling, code review, E2E testing, authentication, debugging, and monorepo management",
+    "version": "1.0.2",
+    "agents": [
+      "monorepo-architect.md"
+    ],
+    "commands": [],
+    "skills": [
+      "auth-implementation-patterns",
+      "bazel-build-optimization",
+      "code-review-excellence",
+      "debugging-strategies",
+      "e2e-testing-patterns",
+      "error-handling-patterns",
+      "git-advanced-workflows",
+      "monorepo-management",
+      "nx-workspace-patterns",
+      "sql-optimization-patterns",
+      "turborepo-caching"
+    ]
+  },
+  {
+    "name": "distributed-debugging",
+    "description": "Distributed system tracing and debugging across microservices",
+    "version": "1.2.0",
+    "agents": [
+      "devops-troubleshooter.md",
+      "error-detective.md"
+    ],
+    "commands": [
+      "debug-trace.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "documentation-generation",
+    "description": "OpenAPI specification generation, Mermaid diagram creation, tutorial writing, API reference documentation",
+    "version": "1.2.2",
+    "agents": [
+      "api-documenter.md",
+      "docs-architect.md",
+      "mermaid-expert.md",
+      "reference-builder.md",
+      "tutorial-engineer.md"
+    ],
+    "commands": [
+      "doc-generate.md"
+    ],
+    "skills": [
+      "architecture-decision-records",
+      "changelog-automation",
+      "openapi-spec-generation"
+    ]
+  },
+  {
+    "name": "dotnet-contribution",
+    "description": "Comprehensive .NET backend development with C#, ASP.NET Core, Entity Framework Core, and Dapper for production-grade applications",
+    "version": "1.0.1",
+    "agents": [
+      "dotnet-architect.md"
+    ],
+    "commands": [],
+    "skills": [
+      "dotnet-backend-patterns"
+    ]
+  },
+  {
+    "name": "error-debugging",
+    "description": "Error analysis, trace debugging, and multi-agent problem diagnosis",
+    "version": "1.2.0",
+    "agents": [
+      "debugger.md",
+      "error-detective.md"
+    ],
+    "commands": [
+      "error-analysis.md",
+      "error-trace.md",
+      "multi-agent-review.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "error-diagnostics",
+    "description": "Error tracing, root cause analysis, and smart debugging for production systems",
+    "version": "1.2.0",
+    "agents": [
+      "debugger.md",
+      "error-detective.md"
+    ],
+    "commands": [
+      "error-analysis.md",
+      "error-trace.md",
+      "smart-debug.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "framework-migration",
+    "description": "Framework updates, migration planning, and architectural transformation workflows",
+    "version": "1.3.1",
+    "agents": [
+      "architect-review.md",
+      "legacy-modernizer.md"
+    ],
+    "commands": [
+      "code-migrate.md",
+      "deps-upgrade.md",
+      "legacy-modernize.md"
+    ],
+    "skills": [
+      "angular-migration",
+      "database-migration",
+      "dependency-upgrade",
+      "react-modernization"
+    ]
+  },
+  {
+    "name": "frontend-mobile-development",
+    "description": "Frontend UI development and mobile application implementation across platforms",
+    "version": "1.2.2",
+    "agents": [
+      "frontend-developer.md",
+      "mobile-developer.md"
+    ],
+    "commands": [
+      "component-scaffold.md"
+    ],
+    "skills": [
+      "nextjs-app-router-patterns",
+      "react-native-architecture",
+      "react-state-management",
+      "tailwind-design-system"
+    ]
+  },
+  {
+    "name": "frontend-mobile-security",
+    "description": "XSS prevention, CSRF protection, content security policies, mobile app security, and secure storage patterns",
+    "version": "1.2.0",
+    "agents": [
+      "frontend-developer.md",
+      "frontend-security-coder.md",
+      "mobile-security-coder.md"
+    ],
+    "commands": [
+      "xss-scan.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "full-stack-orchestration",
+    "description": "End-to-end feature orchestration with testing, security, performance, and deployment",
+    "version": "1.3.0",
+    "agents": [
+      "deployment-engineer.md",
+      "performance-engineer.md",
+      "security-auditor.md",
+      "test-automator.md"
+    ],
+    "commands": [
+      "full-stack-feature.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "functional-programming",
+    "description": "Functional programming with Elixir, OTP patterns, Phoenix framework, and distributed systems",
+    "version": "1.2.0",
+    "agents": [
+      "elixir-pro.md",
+      "haskell-pro.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "game-development",
+    "description": "Unity game development with C# scripting, Minecraft server plugin development with Bukkit/Spigot APIs",
+    "version": "1.2.2",
+    "agents": [
+      "minecraft-bukkit-pro.md",
+      "unity-developer.md"
+    ],
+    "commands": [],
+    "skills": [
+      "godot-gdscript-patterns",
+      "unity-ecs-patterns"
+    ]
+  },
+  {
+    "name": "git-pr-workflows",
+    "description": "Git workflow automation, pull request enhancement, and team onboarding processes",
+    "version": "1.3.0",
+    "agents": [
+      "code-reviewer.md"
+    ],
+    "commands": [
+      "git-workflow.md",
+      "onboard.md",
+      "pr-enhance.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "hr-legal-compliance",
+    "description": "HR policy documentation, legal compliance templates (GDPR/SOC2/HIPAA), employment contracts, and regulatory documentation",
+    "version": "1.2.2",
+    "agents": [
+      "hr-pro.md",
+      "legal-advisor.md"
+    ],
+    "commands": [],
+    "skills": [
+      "employment-contract-templates",
+      "gdpr-data-handling"
+    ]
+  },
+  {
+    "name": "incident-response",
+    "description": "Production incident management, triage workflows, and automated incident resolution",
+    "version": "1.3.1",
+    "agents": [
+      "code-reviewer.md",
+      "debugger.md",
+      "devops-troubleshooter.md",
+      "error-detective.md",
+      "incident-responder.md",
+      "test-automator.md"
+    ],
+    "commands": [
+      "incident-response.md",
+      "smart-fix.md"
+    ],
+    "skills": [
+      "incident-runbook-templates",
+      "on-call-handoff-patterns",
+      "postmortem-writing"
+    ]
+  },
+  {
+    "name": "javascript-typescript",
+    "description": "JavaScript and TypeScript development with ES6+, Node.js, React, and modern web frameworks",
+    "version": "1.2.2",
+    "agents": [
+      "javascript-pro.md",
+      "typescript-pro.md"
+    ],
+    "commands": [
+      "typescript-scaffold.md"
+    ],
+    "skills": [
+      "javascript-testing-patterns",
+      "modern-javascript-patterns",
+      "nodejs-backend-patterns",
+      "typescript-advanced-types"
+    ]
+  },
+  {
+    "name": "julia-development",
+    "description": "Modern Julia development with Julia 1.10+, package management, scientific computing, high-performance numerical code, and production best practices",
+    "version": "1.0.0",
+    "agents": [
+      "julia-pro.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "jvm-languages",
+    "description": "JVM language development including Java, Scala, and C# with enterprise patterns and frameworks",
+    "version": "1.2.0",
+    "agents": [
+      "csharp-pro.md",
+      "java-pro.md",
+      "scala-pro.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "kubernetes-operations",
+    "description": "Kubernetes manifest generation, networking configuration, security policies, observability setup, GitOps workflows, and auto-scaling",
+    "version": "1.2.2",
+    "agents": [
+      "kubernetes-architect.md"
+    ],
+    "commands": [],
+    "skills": [
+      "gitops-workflow",
+      "helm-chart-scaffolding",
+      "k8s-manifest-generator",
+      "k8s-security-policies"
+    ]
+  },
+  {
+    "name": "llm-application-dev",
+    "description": "LLM application development with LangGraph, RAG systems, vector search, and AI agent architectures for Claude 4.6 and GPT-5.2",
+    "version": "2.0.5",
+    "agents": [
+      "ai-engineer.md",
+      "prompt-engineer.md",
+      "vector-database-engineer.md"
+    ],
+    "commands": [
+      "ai-assistant.md",
+      "langchain-agent.md",
+      "prompt-optimize.md"
+    ],
+    "skills": [
+      "embedding-strategies",
+      "hybrid-search-implementation",
+      "langchain-architecture",
+      "llm-evaluation",
+      "prompt-engineering-patterns",
+      "rag-implementation",
+      "similarity-search-patterns",
+      "vector-index-tuning"
+    ]
+  },
+  {
+    "name": "machine-learning-ops",
+    "description": "ML model training pipelines, hyperparameter tuning, model deployment automation, experiment tracking, and MLOps workflows",
+    "version": "1.2.1",
+    "agents": [
+      "data-scientist.md",
+      "ml-engineer.md",
+      "mlops-engineer.md"
+    ],
+    "commands": [
+      "ml-pipeline.md"
+    ],
+    "skills": [
+      "ml-pipeline-workflow"
+    ]
+  },
+  {
+    "name": "multi-platform-apps",
+    "description": "Cross-platform application development coordinating web, iOS, Android, and desktop implementations",
+    "version": "1.3.0",
+    "agents": [
+      "backend-architect.md",
+      "flutter-expert.md",
+      "frontend-developer.md",
+      "ios-developer.md",
+      "mobile-developer.md",
+      "ui-ux-designer.md"
+    ],
+    "commands": [
+      "multi-platform.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "observability-monitoring",
+    "description": "Metrics collection, logging infrastructure, distributed tracing, SLO implementation, and monitoring dashboards",
+    "version": "1.2.2",
+    "agents": [
+      "database-optimizer.md",
+      "network-engineer.md",
+      "observability-engineer.md",
+      "performance-engineer.md"
+    ],
+    "commands": [
+      "monitor-setup.md",
+      "slo-implement.md"
+    ],
+    "skills": [
+      "distributed-tracing",
+      "grafana-dashboards",
+      "prometheus-configuration",
+      "slo-implementation"
+    ]
+  },
+  {
+    "name": "payment-processing",
+    "description": "Payment gateway integration with Stripe, PayPal, checkout flow implementation, subscription billing, and PCI compliance",
+    "version": "1.2.2",
+    "agents": [
+      "payment-integration.md"
+    ],
+    "commands": [],
+    "skills": [
+      "billing-automation",
+      "paypal-integration",
+      "pci-compliance",
+      "stripe-integration"
+    ]
+  },
+  {
+    "name": "performance-testing-review",
+    "description": "Performance analysis, test coverage review, and AI-powered code quality assessment",
+    "version": "1.2.1",
+    "agents": [
+      "performance-engineer.md",
+      "test-automator.md"
+    ],
+    "commands": [
+      "ai-review.md",
+      "multi-agent-review.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "python-development",
+    "description": "Modern Python development with Python 3.12+, Django, FastAPI, async patterns, and production best practices",
+    "version": "1.2.2",
+    "agents": [
+      "django-pro.md",
+      "fastapi-pro.md",
+      "python-pro.md"
+    ],
+    "commands": [
+      "python-scaffold.md"
+    ],
+    "skills": [
+      "async-python-patterns",
+      "python-anti-patterns",
+      "python-background-jobs",
+      "python-code-style",
+      "python-configuration",
+      "python-design-patterns",
+      "python-error-handling",
+      "python-observability",
+      "python-packaging",
+      "python-performance-optimization",
+      "python-project-structure",
+      "python-resilience",
+      "python-resource-management",
+      "python-testing-patterns",
+      "python-type-safety",
+      "uv-package-manager"
+    ]
+  },
+  {
+    "name": "quantitative-trading",
+    "description": "Quantitative analysis, algorithmic trading strategies, financial modeling, portfolio risk management, and backtesting",
+    "version": "1.2.2",
+    "agents": [
+      "quant-analyst.md",
+      "risk-manager.md"
+    ],
+    "commands": [],
+    "skills": [
+      "backtesting-frameworks",
+      "risk-metrics-calculation"
+    ]
+  },
+  {
+    "name": "reverse-engineering",
+    "description": "Binary reverse engineering, malware analysis, firmware security, and software protection research for authorized security research, CTF competitions, and defensive security",
+    "version": "1.0.0",
+    "agents": [
+      "firmware-analyst.md",
+      "malware-analyst.md",
+      "reverse-engineer.md"
+    ],
+    "commands": [],
+    "skills": [
+      "anti-reversing-techniques",
+      "binary-analysis-patterns",
+      "memory-forensics",
+      "protocol-reverse-engineering"
+    ]
+  },
+  {
+    "name": "security-compliance",
+    "description": "SOC2, HIPAA, and GDPR compliance validation, secrets scanning, compliance checklists, and regulatory documentation",
+    "version": "1.2.0",
+    "agents": [
+      "security-auditor.md"
+    ],
+    "commands": [
+      "compliance-check.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "security-scanning",
+    "description": "SAST analysis, dependency vulnerability scanning, OWASP Top 10 compliance, container security scanning, and automated security hardening",
+    "version": "1.3.1",
+    "agents": [
+      "security-auditor.md",
+      "threat-modeling-expert.md"
+    ],
+    "commands": [
+      "security-dependencies.md",
+      "security-hardening.md",
+      "security-sast.md"
+    ],
+    "skills": [
+      "attack-tree-construction",
+      "sast-configuration",
+      "security-requirement-extraction",
+      "stride-analysis-patterns",
+      "threat-mitigation-mapping"
+    ]
+  },
+  {
+    "name": "seo-analysis-monitoring",
+    "description": "Content freshness analysis, cannibalization detection, and authority building for SEO",
+    "version": "1.2.0",
+    "agents": [
+      "seo-authority-builder.md",
+      "seo-cannibalization-detector.md",
+      "seo-content-refresher.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "seo-content-creation",
+    "description": "SEO content writing, planning, and quality auditing with E-E-A-T optimization",
+    "version": "1.2.0",
+    "agents": [
+      "seo-content-auditor.md",
+      "seo-content-planner.md",
+      "seo-content-writer.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "seo-technical-optimization",
+    "description": "Technical SEO optimization including meta tags, keywords, structure, and featured snippets",
+    "version": "1.2.0",
+    "agents": [
+      "seo-keyword-strategist.md",
+      "seo-meta-optimizer.md",
+      "seo-snippet-hunter.md",
+      "seo-structure-architect.md"
+    ],
+    "commands": [],
+    "skills": []
+  },
+  {
+    "name": "shell-scripting",
+    "description": "Production-grade Bash scripting with defensive programming, POSIX compliance, and comprehensive testing",
+    "version": "1.2.2",
+    "agents": [
+      "bash-pro.md",
+      "posix-shell-pro.md"
+    ],
+    "commands": [],
+    "skills": [
+      "bash-defensive-patterns",
+      "bats-testing-patterns",
+      "shellcheck-configuration"
+    ]
+  },
+  {
+    "name": "startup-business-analyst",
+    "description": "Comprehensive startup business analysis with market sizing (TAM/SAM/SOM), financial modeling, team planning, and strategic research",
+    "version": "1.0.5",
+    "agents": [
+      "startup-analyst.md"
+    ],
+    "commands": [
+      "business-case.md",
+      "financial-projections.md",
+      "market-opportunity.md"
+    ],
+    "skills": [
+      "competitive-landscape",
+      "market-sizing-analysis",
+      "startup-financial-modeling",
+      "startup-metrics-framework",
+      "team-composition-analysis"
+    ]
+  },
+  {
+    "name": "systems-programming",
+    "description": "Systems programming with Rust, Go, C, and C++ for performance-critical and low-level development",
+    "version": "1.2.2",
+    "agents": [
+      "c-pro.md",
+      "cpp-pro.md",
+      "golang-pro.md",
+      "rust-pro.md"
+    ],
+    "commands": [
+      "rust-project.md"
+    ],
+    "skills": [
+      "go-concurrency-patterns",
+      "memory-safety-patterns",
+      "rust-async-patterns"
+    ]
+  },
+  {
+    "name": "tdd-workflows",
+    "description": "Test-driven development methodology with red-green-refactor cycles and code review",
+    "version": "1.3.0",
+    "agents": [
+      "code-reviewer.md",
+      "tdd-orchestrator.md"
+    ],
+    "commands": [
+      "tdd-cycle.md",
+      "tdd-green.md",
+      "tdd-red.md",
+      "tdd-refactor.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "team-collaboration",
+    "description": "Team workflows, issue management, standup automation, and developer experience optimization",
+    "version": "1.2.0",
+    "agents": [
+      "dx-optimizer.md"
+    ],
+    "commands": [
+      "issue.md",
+      "standup-notes.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "ui-design",
+    "description": "Comprehensive UI/UX design plugin for mobile (iOS, Android, React Native) and web applications with design systems, accessibility, and modern patterns",
+    "version": "1.0.3",
+    "agents": [
+      "accessibility-expert.md",
+      "design-system-architect.md",
+      "ui-designer.md"
+    ],
+    "commands": [
+      "accessibility-audit.md",
+      "create-component.md",
+      "design-review.md",
+      "design-system-setup.md"
+    ],
+    "skills": [
+      "accessibility-compliance",
+      "design-system-patterns",
+      "interaction-design",
+      "mobile-android-design",
+      "mobile-ios-design",
+      "react-native-design",
+      "responsive-design",
+      "visual-design-foundations",
+      "web-component-design"
+    ]
+  },
+  {
+    "name": "unit-testing",
+    "description": "Unit and integration test automation for Python and JavaScript with debugging support",
+    "version": "1.2.0",
+    "agents": [
+      "debugger.md",
+      "test-automator.md"
+    ],
+    "commands": [
+      "test-generate.md"
+    ],
+    "skills": []
+  },
+  {
+    "name": "web-scripting",
+    "description": "Web scripting with PHP and Ruby for web applications, CMS development, and backend services",
+    "version": "1.2.0",
+    "agents": [
+      "php-pro.md",
+      "ruby-pro.md"
+    ],
+    "commands": [],
+    "skills": []
+  }
+]

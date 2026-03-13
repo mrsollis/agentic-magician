@@ -1,0 +1,33 @@
+{
+  "name": "agentic-magician",
+  "version": "0.1.0",
+  "description": "Install curated AI agent configurations for Claude Code and Cursor",
+  "type": "module",
+  "bin": {
+    "agentic-magician": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepare": "tsup",
+    "populate": "bash scripts/populate-templates.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.9.1",
+    "picocolors": "^1.1.1",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
